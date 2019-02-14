@@ -1,6 +1,6 @@
 [package]
 name = "refcounted"
-description = ""
+description = "Placeholder"
 license = "MIT"
 version = "0.1.0"
 authors = ["George Burton <burtonageo@gmail.com>"]
