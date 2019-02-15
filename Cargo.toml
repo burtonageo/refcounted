@@ -1,9 +1,16 @@
 [package]
 name = "refcounted"
-description = "Placeholder"
+description = "A library which provides abstractions over Arc/Rc"
+keywords = ["rc", "arc", "pointer", "reference count", "utils"]
+repository = "https://github.com/burtonageo/refcounted"
 license = "MIT"
 version = "0.1.0"
 authors = ["George Burton <burtonageo@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+
+[features]
+default = []
+nightly = ["pin"]
+pin = []
